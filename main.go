@@ -73,7 +73,6 @@ func main() {
 }
 
 func parseCommands(args []string) map[string]string {
-	fmt.Println(args)
 	if len(args) < 2 {
 		fmt.Println("No args provided")
 		os.Exit(1)
